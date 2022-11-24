@@ -24,9 +24,9 @@ import org.apache.cordova.CallbackContext;
 import org.apache.cordova.PluginResult;
 import org.apache.cordova.PermissionHelper;
 
-import com.google.zxing.client.android.CaptureActivity;
-import com.google.zxing.client.android.encode.EncodeActivity;
-import com.google.zxing.client.android.Intents;
+import com.modified.zxing.client.android.CaptureActivity;
+import com.modified.zxing.client.android.encode.EncodeActivity;
+import com.modified.zxing.client.android.Intents;
 
 /**
  * This calls out to the ZXing barcode reader and returns the result.
